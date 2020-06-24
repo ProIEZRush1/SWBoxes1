@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SWBoxes">
+    <output-path>$PROJECT_DIR$/../../Servidor/plugins</output-path>
+    <root id="archive" name="SWBoxes.jar">
+      <element id="module-output" name="SWBoxes" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+main: me.proiezrush.swboxes.Main
+name: SWBoxes
+author: ProIEZRush
+version: 1.0
+commands:
+  swboxes:
+    aliases: [box]
+    description: Main plugin command

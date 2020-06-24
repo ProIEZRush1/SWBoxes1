@@ -1,0 +1,78 @@
+PREFIX: '&e&lSWBOXES '
+#
+MySQL:
+  host: localhost
+  username: root
+  password: password
+  database: database
+  port: 3306
+#
+Item:
+  Material: STAINED_GLASS
+  Data: 3
+Menu:
+  Name: '&8Cajas...'
+  CloseItem:
+    Name: '&cCerrar'
+    Lore:
+      - '&7&m---------------'
+      - '&eClick para cerrar'
+      - '&7&m---------------'
+    Material: BARRIER
+    Data: 0
+  CurrentBox:
+    Lore:
+      - '&7&m---------------'
+      - '&a&lSELECCIONADA'
+      - '&7&m---------------'
+#
+Cages:
+  LockedLore:
+    - '&7&m---------------'
+    - '&7Precio: %price%'
+    - '&7'
+    - '&c&lBLOQUEADA'
+    - '&eClick para comprar'
+    - '&7&m---------------'
+  UnlockedLore:
+    - '&7&m---------------'
+    - '&a&lDESBLOQUEADA'
+    - '&eClick para utilizar'
+    - '&7&m---------------'
+#
+command-help:
+  - '&7&m---------------'
+  - '  &d/swboxes create <name>'
+  - '  &d/swboxes delete <name>'
+  - '  &d/swboxes edit <name>'
+  - '  &d/swboxes save <name>'
+  - '  &d/swboxes reload'
+  - '  &d/swboxes wand'
+  - '  &d/swboxes menu'
+  - '  &d/swboxes seticon <name>'
+  - '  &d/swboxes setdisplay <name> <display>'
+  - '&7&m---------------'
+#
+console-error: '&e&lSWBOXES &cNo eres un jugador'
+no-permission: '&e&lSWBOXES &cNo tienes permisos'
+config-reloaded: '&e&lSWBOXES &aLa configuracion ha sido recargada'
+wand-received: '&e&lSWBOXES &aHas recibido &6&lSWBOXES WAND'
+menu-opened: '&e&lSWBOXES &aAbriste el menu de cajas'
+box-already-exists: '&e&lSWBOXES &cLa caja ya existe'
+box-not-exists: '&e&lSWBOXES &cLa caja no existe'
+box-created: '&e&lSWBOXES &aLa caja ha sido creada'
+not-editing: '&e&lSWBOXES &cNo estas editando una/esta caja'
+box-saved: '&e&lSWBOXES &aLa caja ha sido guardada'
+pos-not-set: '&e&lSWBOXES &cNecesitas seleccionar las 2 posiciones'
+pos1-set: '&e&lSWBOXES &aHas puesto la posicion 1'
+pos2-set: '&e&lSWBOXES &aHas puesto la posicion 2'
+box-bought: '&e&lSWBOXES &aHas comprado la caja con exito'
+not-enough-coins: '&e&lSWBOXES &cNo tienes suficientes monedas'
+box-selected: '&e&lSWBOXES &aCaja seleccionada'
+already-editing: '&e&lSWBOXES &cYa estas editando una caja'
+edit-box: '&e&lSWBOXES &aAhora estas editando la caja'
+not-delete-default: '&e&lSWBOXES &cNo puedes borrar la caja default'
+box-deleted: '&e&lSWBOXES &cBorraste la caja con exito'
+not-number: '&e&lSWBOXES &cNecesitas poner un numero'
+icon-set: '&e&lSWBOXES &aEl icono ha sido puesto con exito'
+icondata-set: '&e&lSWBOXES &aEl data del icono ha sido puesto con exito'
